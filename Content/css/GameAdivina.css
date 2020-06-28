@@ -1,0 +1,51 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+    background-image: url(img/giphy.gif);
+}
+
+.card-main {
+    color: aliceblue;
+    background-color: black;
+    padding: 4em 2em;
+    margin: 3em;
+}
+
+#secBoton {
+    padding: 5%;
+}
+
+.guessSubmit {
+    background-color: #8000ff;
+    color: white;
+}
+
+.lastResult {
+    color: white;
+    padding: 3px;
+}
+
+.rank {
+    color: white;
+}
+
+.resett {
+    color: #000000;
+}
+
+.final-content {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.regresar {
+    background-color: yellow;
+    color: #000000;
+}
