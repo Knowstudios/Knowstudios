@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact me || Manuel</title>
+    <meta
+      name="description"
+      content="Manuel Herrera porfolio's"
+    />
+    <meta
+      name="keywords"
+      content="HTML,CSS,JavaScript,Portfolio,Web,Developer,Frontend,Mobile"
+    />
+    <meta name="author" content="Manuel Herrera" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="../assets/images/logo_transparent_background.png"
+    />
+    <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/section.css" />
+    <link rel="stylesheet" href="../styles/navbar.css" />
+  </head>
+
+  <body>
+    <section class="section__container">
+      <nav class="navbar">
+        <ul class="navbar__section">
+          <li>
+            <a href="../index.html">
+              <img
+                src="../assets/images/dark_logo_transparent_background.png"
+                alt="Manuelh01"
+                class="navbar__logo"
+              />
+            </a>
+          </li>
+        </ul>
+        <ul class="navbar__section navbar__section--right">
+          <li>
+            <a href="./about.html" class="navbar__item">About</a>
+          </li>
+          <li>
+            <a href="./projects.html" class="navbar__item">Projects</a>
+          </li>
+          
+        </ul>
+      </nav>
+      <div class="content__wrapper">
+        <div class="content__wrapper__text">
+          <h1 class="content__text__title">Send me a message</h1>
+          <form
+            action=""
+            method="POST"
+            class="form__style"
+            autocomplete="on"
+          >
+            <fieldset class="fieldset__style">
+              <p>
+                <label class="form__label">Your name</label>
+                <input
+                  type="text"
+                  name="name"
+                  required
+                  class="form__input"
+                  placeholder="For example: 'Manuel Herrera'"
+                />
+              </p>
+              <p>
+                <label class="form__label">Your Email</label>
+                <input
+                  type="email"
+                  name="_replyto"
+                  required
+                  class="form__input"
+                  placeholder="For example: 'manuh01@icloud.com'"
+                />
+              </p>
+              <p>
+                <label class="form__label">Your message</label>
+                <textarea
+                  name="message"
+                  required
+                  autocomplete="off"
+                  wrap="hard"
+                  cols="40"
+                  rows="10"
+                  spellcheck
+                  class="form__input form__input--textarea"
+                  placeholder="For example: 'Hi Manuel my name is Joe Doe and i'm interest in talk to you about..."
+                ></textarea>
+              </p>
+              <input
+                type="submit"
+                value="Send"
+                class=" content__text__button content__text__button--form"
+              />
+            </fieldset>
+          </form>
+        </div>
+        <div class="content__wrapper__image">
+          <img
+            src="../assets/images/mobile-notification.png"
+            alt="contactMe"
+            class="image__style"
+          />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
